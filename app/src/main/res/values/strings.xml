@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FlipkartDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_text">Search here…</string>
+    <string name="see_all">See All</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="Rs">₹</string>
+    <string name="category">Category</string>
+    <string name="profile">My Profile</string>
+    <string name="wishlist">My Wishlist</string>
+    <string name="my_order">My Order</string>
+</resources>

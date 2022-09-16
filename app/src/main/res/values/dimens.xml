@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toolbar_height">80dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="homeCategoryTitle">@dimen/_16ssp</dimen>
+    <dimen name="homeMargin">@dimen/_8sdp</dimen>
+    <dimen name="viewAllMargin">@dimen/_10ssp</dimen>
+    <dimen name="drawablePadding">@dimen/_5sdp</dimen>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.view.HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Header -->
+        <include
+            android:id="@+id/llHeader"
+            layout="@layout/header_main_layout" />
+
+        <LinearLayout
+            android:id="@+id/mainContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/llHeader"
+            android:layout_marginBottom="@dimen/_56sdp">
+
+            <FrameLayout
+                android:id="@+id/content_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_56sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:id="@+id/rlHome"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20">
+
+                <ImageView
+                    android:id="@+id/ivHomeSelect"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/home_select" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center_vertical"
+                android:background="#383978" />
+
+            <RelativeLayout
+                android:id="@+id/rlCategory"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20">
+
+                <ImageView
+                    android:id="@+id/ivCategorySelect"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/category_unselect"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center_vertical"
+                android:background="#383978" />
+
+            <RelativeLayout
+                android:id="@+id/rlProfile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20">
+
+                <ImageView
+                    android:id="@+id/ivProfileSelect"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_person_unselect" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center_vertical"
+                android:background="#383978" />
+
+            <RelativeLayout
+                android:id="@+id/rlWishlist"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20">
+
+                <ImageView
+                    android:id="@+id/ivWishlistSelect"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_wish_unselect" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center_vertical"
+                android:background="#383978" />
+
+            <RelativeLayout
+                android:id="@+id/rlMore"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".20">
+
+                <ImageView
+                    android:id="@+id/ivMoreSelect"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_more_unselect" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

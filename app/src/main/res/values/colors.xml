@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#45F4FF</color>
+    <color name="colorPrimary">#212255</color>
+    <color name="purple_700">#212255</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="green">#2FAC10</color>
+
+    <color name="sub_title_text_color">#626262</color>
+    <color name="shimmer_color">#dddddd</color>
+    <color name="gray_3">#C4C4C4</color>
+    <color name="gray_4">#E7E7E7</color>
+    <color name="font_color2">#939AA8</color>
+    <color name="textColor">#3A3A3A</color>
+    <color name="textColorGrey">#90909B</color>
+    <color name="red">#F60404</color>
+    <color name="color_fav_bg">#2D2E7A</color>
+    <color name="item_bg_color">#DFE0FF</color>
+    <color name="item_bg_color_light">#F0F0FF</color>
+    <color name="item_bg_color_deep">#9C9B9F</color>
+    <color name="lightGray">#918A8A</color>
+    <color name="colorHint">#666666</color>
+
+
+</resources>
